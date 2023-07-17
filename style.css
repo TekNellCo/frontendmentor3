@@ -29,6 +29,10 @@ body{
     background-image: radial-gradient( 90% 160% at top,hsl(213, 19%, 18%),hsl(216, 12%, 8%));
 
 }
+
+
+
+/* POPUP DISPLAY */
 .popup{
     position: absolute;
     /* javascript flex to none to flex */
@@ -64,6 +68,7 @@ body{
     font-family: 'Overpass', sans-serif;
 }
 .popup p{
+    font-family: 'Overpass', sans-serif;
     text-align: center;
     font-size: 17px;
     font-weight: 400;
@@ -75,29 +80,7 @@ body{
 }
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+/* MAIN DISPLAY */
 .howdidwedo{
 
     display: flex;
@@ -107,7 +90,6 @@ body{
     min-height: 30em;
     padding: 0 4em 2em 4em;
 
-    /* background-color: hsl(213, 19%, 18%); */
 }
 .howdidwedo img{
     max-width: 6em;
@@ -121,10 +103,11 @@ body{
     font-weight: 700;
  }
  .howdidwedo p{
-    font-size: 17px;
+    font-family: 'Overpass', sans-serif;
+    font-size: 15px;
     font-weight: 400;
     color:hsl(217, 12%, 63%) ;
-    margin-top: -2em;
+    margin-top: -1em;
     line-height: 1.7em;
     letter-spacing: 0.2px;
  }
