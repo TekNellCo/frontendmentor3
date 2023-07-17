@@ -62,6 +62,7 @@ body{
     gap: 1em;
  }
  .buttonbox button{
+    font-size: 16px;
     font-family: 'Overpass', sans-serif;
     font-weight: 700;
     border-radius: 50%;
@@ -70,16 +71,27 @@ body{
     color: hsl(217, 12%, 63%);
     cursor: pointer;
  }
-
+ .buttonbox button:hover{
+    color: white;
+    background-color: hsl(217, 12%, 63%);
+ }
+ .buttonbox button:focus{
+    background-color:hsl(25, 97%, 53%);
+    color: hsl(0, 0%, 100%);
+ }
  .submit{
     min-width: 100%;
     min-height: 3.5em;
     border-radius: 25px;
     font-family: 'Overpass', sans-serif;
+    font-weight: 700;
     letter-spacing: 4px;
     color: hsl(0, 0%, 100%);
     background-color: hsl(25, 97%, 53%);
     cursor: pointer;
-
+ }
+ .submit:active{
+    color:hsl(25, 97%, 53%) ;
+    background-color: hsl(0, 0%, 100%);
  }
 
